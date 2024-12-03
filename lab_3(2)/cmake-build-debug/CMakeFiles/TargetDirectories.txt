@@ -1,0 +1,3 @@
+C:/Polina Kovdrysh/c++/lab_3(2)/cmake-build-debug/CMakeFiles/lab_3_2_.dir
+C:/Polina Kovdrysh/c++/lab_3(2)/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Polina Kovdrysh/c++/lab_3(2)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
