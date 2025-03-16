@@ -7,7 +7,7 @@ struct Time {
     int minutes;
 };
 
-Time calculateDuration(const Time& start, const Time& end) {
+Time calculateDuration(Time start, Time end) {
     Time duration;
     int startMinutes = start.hours * 60 + start.minutes;
     int endMinutes = end.hours * 60 + end.minutes;
@@ -23,7 +23,7 @@ Time calculateDuration(const Time& start, const Time& end) {
     return duration;
 }
 
-bool isValidTime(const Time& time) {
+bool isValidTime(Time time) {
     return time.hours >= 0 && time.hours < 24 && time.minutes >= 0 && time.minutes < 60;
 }
 

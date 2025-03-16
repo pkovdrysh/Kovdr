@@ -145,6 +145,7 @@ void sixthTask(){
     cout << "Generated array: ";
     for (int i = 0; i < n; ++i) {
         arr[i] = rand() % 21 - 10; // [-10, 10]
+        //%11-5
         cout << arr[i] << " ";
     }
     cout << endl;
